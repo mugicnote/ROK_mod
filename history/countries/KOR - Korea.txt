@@ -96,10 +96,10 @@ create_field_marshal = {
   traits = { }
   skill = 7
 
-  attack_skill = 8
-  defense_skill = 6
-  planning_skill = 8
-  logistics_skill = 7
+  attack_skill = 7
+  defense_skill = 5
+  planning_skill = 7
+  logistics_skill = 6
 }
 
 create_field_marshal = {
@@ -108,32 +108,80 @@ create_field_marshal = {
   traits = { }
   skill = 8
 
-  attack_skill = 6
-  defense_skill = 9
-  planning_skill = 5
-  logistics_skill = 8
-}
-
-create_corps_commander = {
-  name = "서기학"
-  picture = "portrait_ger_felix_steiner...dds"
-  traits = { }
-  skill = 5
-
-  attack_skill = 4
-  defense_skill = 6
-  planning_skill = 7
-  logistics_skill = 8
+  attack_skill = 5
+  defense_skill = 8
+  planning_skill = 4
+  logistics_skill = 7
 }
 
 create_corps_commander = {
   name = "이범석"
-  picture = "bgltx-y3il0.dds"
+  picture = ""
   traits = { }
   skill = 8
 
-  attack_skill = 8
-  defense_skill = 7
+  attack_skill = 7
+  defense_skill = 6
   planning_skill = 3
-  logistics_skill = 8
+  logistics_skill = 7
+}
+
+create_corps_commander = {
+  name = "박경철"
+  picture = ""
+  traits = { }
+  skill = 3
+
+  attack_skill = 3
+  defense_skill = 5
+  planning_skill = 2
+  logistics_skill = 6
+}
+
+create_corps_commander = {
+  name = "김홍일"
+  picture = ""
+  traits = { }
+  skill = 8
+
+  attack_skill = 3
+  defense_skill = 7
+  planning_skill = 6
+  logistics_skill = 5
+}
+
+create_field_marshal = {
+  name = "지청천"
+  picture = ""
+  traits = { }
+  skill = 8
+
+  attack_skill = 7
+  defense_skill = 4
+  planning_skill = 2
+  logistics_skill = 6
+}
+
+create_field_marshal = {
+  name = "김경천"
+  picture = ""
+  traits = { }
+  skill = 8
+
+  attack_skill = 6
+  defense_skill = 5
+  planning_skill = 6
+  logistics_skill = 4
+}
+
+create_field_marshal = {
+  name = "김원봉"
+  picture = ""
+  traits = { }
+  skill = 8
+
+  attack_skill = 9
+  defense_skill = 2
+  planning_skill = 8
+  logistics_skill = 3
 }
