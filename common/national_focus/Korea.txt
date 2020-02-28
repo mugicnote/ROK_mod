@@ -416,7 +416,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_35
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_construct_mil_factory
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_34
@@ -427,7 +427,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_38
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_self_management
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_10
@@ -449,7 +449,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_40
-		icon = GFX_goal_unknown
+		icon = GFX_goal_tfv_sever_ties_with_uk
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_38
