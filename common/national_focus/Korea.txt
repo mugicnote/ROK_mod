@@ -310,7 +310,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_26
-		icon = GFX_
+		icon = GFX_goal_generic_war_with_comintern
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_23
@@ -347,7 +347,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_29
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_political_pressure
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_24
@@ -361,7 +361,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_30
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_military_sphere
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_29
@@ -372,7 +372,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_31
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_occupy_states_coastal
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_32
@@ -383,7 +383,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_32
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_strike_at_democracy3
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_23
@@ -394,7 +394,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_33
-		icon = GFX_goal_unknown
+		icon = GFX_focus_attack_soviet
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_26
@@ -405,7 +405,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_34
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_construct_naval_dockyard
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_9
