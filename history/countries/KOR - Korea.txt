@@ -71,7 +71,7 @@ create_country_leader = {
 create_country_leader = {
   name = "이범석"
   desc = "POLITICS_LEE_BEOM_SEOK_DESC"
-  picture = "bgltx-y3il0.dds"
+  picture = ""
   expire = "1972.5.11"
   ideology = fascism_ideology
   traits = {
@@ -81,7 +81,7 @@ create_country_leader = {
 
 create_country_leader = {
   name = "고종"
-  desc = ""
+  desc = "POLITICS_GO_JONG_DESC"
   picture = ""
   expire = "1947.1.21"
   ideology = despotism
