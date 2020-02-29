@@ -1,0 +1,24 @@
+ideas = {
+
+    country = {
+        KOR_closed_door_politics = {
+            
+            allowed = {
+				original_tag = KOR
+				always = no
+			}
+            
+            allowed_civil_war = {
+                always = yes
+            }
+            
+            removal_cost = -1
+
+            picture = generic_disjointed_gov
+            
+            modifier = {
+                political_power_cost = 0.8
+            }
+        }
+    }
+}
