@@ -40,7 +40,7 @@ ideas = {
             modifier = {
                 stability_factor = -3.0
                 war_support_factor = -3.0
-                conscription_factor = -6.5
+                conscription = -6.5
             }
         }
     }
