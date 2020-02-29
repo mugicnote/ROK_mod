@@ -22,7 +22,7 @@ ideas = {
             }
         }
 
-        Colony of Japan = {
+        Colony_of_Japan = {
             
             allowed = {
                 original_tag = KOR
