@@ -33,6 +33,10 @@ set_technology = {
 
 set_convoys = 10
 
+add_ideas = {
+    KOR_closed_door_politics
+}
+
 set_politics = {
     ruling_party = neutrality
     last_election = "1936.1.1"
