@@ -18,7 +18,29 @@ ideas = {
             picture = generic_disjointed_gov
             
             modifier = {
-                political_power_cost = 0.8
+                political_power_cost = 1
+            }
+        }
+
+        Colony of Japan = {
+            
+            allowed = {
+                original_tag = KOR
+                always = no
+            }
+            
+            allowed_civil_war = {
+                always = no
+            }
+            
+            removal_cost = -1
+
+            picture = idea_chi_army_corruption
+            
+            modifier = {
+                stability_factor = -3.0
+                war_support_factor = -3.0
+                conscription_factor = -6.5
             }
         }
     }
