@@ -39,7 +39,7 @@ add_ideas = {
 }
 
 set_politics = {
-    ruling_party = neutrality
+    ruling_party = fascism
     last_election = "1936.1.1"
     election_frequency = 48
     elections_allowed = yes
@@ -74,8 +74,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-  name = "이범석"
-  desc = "POLITICS_LEE_BEOM_SEOK_DESC"
+  name = "사이토 마코토"
+  desc = "POLITICS_SAITO_MAKOTO"
   picture = ""
   expire = "1972.5.11"
   ideology = fascism_ideology
