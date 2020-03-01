@@ -35,6 +35,7 @@ set_convoys = 10
 
 add_ideas = {
     KOR_closed_door_politics
+    Colony_of_Japan
 }
 
 set_politics = {
