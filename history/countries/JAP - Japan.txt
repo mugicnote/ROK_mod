@@ -25,12 +25,6 @@ add_ideas = {
 	set_garrison_strength = 1.0
 }
 
-527 = {
-	
-
-
-
-}
 
 745 = {
 	start_resistance = yes
