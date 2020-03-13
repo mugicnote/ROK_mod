@@ -1,4 +1,4 @@
-﻿capital = 525
+capital = 525
 
 #oob = #
 
@@ -9,12 +9,19 @@
 	set_garrison_strength = 0
 }
 
+#시작시_연구가능_칸
 set_research_slots = 4
-set_stability = 0.4
-set_war_support = 0.2
+
+#시작시_안정도
+set_stability = 0.7
+
+#시작시_전쟁지지도
+set_war_support = 0.6
+
+#연료_비율
 set_fuel_ratio = 1.0
 
-# Starting tech
+#시작시_연구된_장비
 set_technology = {
    infantry_weapons = 1
    mass_assault = 1
@@ -31,26 +38,31 @@ set_technology = {
    trench_warfare = 1
 }
 
+#수송선
 set_convoys = 10
 
+#국민정신
 add_ideas = {
     KOR_closed_door_politics
     Colony_of_Japan
 }
 
+#시작_정당
 set_politics = {
     ruling_party = fascism
     last_election = "1936.1.1"
     election_frequency = 48
     elections_allowed = yes
 }
+#시작시_정당들의_인기도
 set_popularities = {
-    democratic = 25
-    fascism = 25
-    communism = 25
-    neutrality = 25
+    democratic = 10
+    fascism = 70
+    communism = 10
+    neutrality = 10
 }
 
+정당별_리더
 create_country_leader = {
   name = "김구"
   desc = "POLITICS_KIM_KOO_DESC"
@@ -95,6 +107,7 @@ create_country_leader = {
   }
 }
 
+#육군_장군_및_육군_원수
 create_field_marshal = {
   name = "홍범도"
   picture = "b60wc-uayiu.dds"
