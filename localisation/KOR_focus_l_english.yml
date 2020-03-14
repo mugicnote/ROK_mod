@@ -1,4 +1,6 @@
 ﻿l_english:
+  newfocus_15:0 ""
+  newfocus_15_desc:0 ""
   newfocus_4:0 "혼란속의 정부"
   newfocus_4_desc:0 "."
   newfocus_61:0 "시민에게 권력을"
@@ -35,13 +37,20 @@
   newfocus_40_desc:0 "."
   newfocus_41:0 "추축국에 대항"
   newfocus_41_desc:0 "."
-  newfocus_01:0 "과거청산"
-  newfocus_01_desc:0 "."
   newfocus_34:0 "인천 조선소"
   newfocus_34_desc:0 "."
   newfocus_35:0 "북 공장설립"
   newfocus_35_desc:0 "."
- 
+  newfocus_72:0 "과거청산"
+  newfocus_72_desc:0 "."
+  newfocus_73:0 "추축국과의 전쟁"
+  newfocus_73_desc:0 "."
+  newfocus_74:0 "일본과의 전쟁"
+  newfocus_74_desc:0 "."
+  newfocus_75:0 "연합에 평화를"
+  newfocus_75_desc:0 "."
+  
+
   ###연합 민주주의###
   newfocus_0:0 "미국과의 접촉"
   newfocus_0_desc:0 "."
@@ -127,3 +136,19 @@
   newfocus_59_desc:0 "."
   newfocus_60:0 "찬란한 인민휘하"
   newfocus_60_desc:0 "."
+
+  ###파시루트###
+  newfocus_
+  newfocus_
+  newfocus_
+  newfocus_
+  newfocus_
+  newfocus_
+  newfocus_
+  newfocus_
+  newfocus_
+  newfocus_
+  newfocus_
+  newfocus_
+  newfocus_
+  newfocus_
