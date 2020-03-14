@@ -62,7 +62,7 @@ set_popularities = {
     neutrality = 10
 }
 
-정당별_리더
+#정당별_리더
 create_country_leader = {
   name = "김구"
   desc = "POLITICS_KIM_KOO_DESC"
