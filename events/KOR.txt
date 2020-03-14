@@ -1,0 +1,48 @@
+country_event = {
+	id = Rhee_Syngman_Returns.1
+	title = Rhee_Syngman_Returns.1.t
+	desc = Rhee_Syngman_Returns.1.d
+	picture = GFX_report_event_generic_parliament
+
+	is_triggered_only = yes
+	
+	# Ok
+	option = {
+		name = Rhee_Syngman_Returns.1.a
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Rhee Syngman"
+			desc = "POLITICS_RHEE_SYNGMAN_DESC"
+			picture = "Portrait_Britain_Winston_Churchill.dds"
+			expire = "1965.7.19"
+			ideology = liberalism
+			traits = {
+			  #
+			}
+		}
+	}
+}
+country_event = {
+	id = Freedom to the common people.1
+	title = Freedom to the common people.1.t
+	desc = Freedom to the common people.1.d
+	picture = GFX_report_event_generic_parliament
+
+	is_triggered_only = yes
+	
+	# Ok
+	option = {
+		name = Freedom to the common people.1.a
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Rhee Syngman"
+			desc = "POLITICS_RHEE_SYNGMAN_DESC"
+			picture = "Portrait_Britain_Winston_Churchill.dds"
+			expire = "1965.7.19"
+			ideology = liberalism
+			traits = {
+			  #
+			}
+		}
+	}
+}

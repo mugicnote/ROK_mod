@@ -118,6 +118,9 @@ focus_tree = {
 		x = 8
 		y = 5
 
+  		completion_reward = {
+  			country_event = { id = Rhee_Syngman_Returns.1 }
+  		}
 	}
 	focus = {
 		id = newfocus_13
