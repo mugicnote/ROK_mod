@@ -45,20 +45,6 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_1
-		icon = GFX_goal_support_democracy
-		cost = 10.00
-		prerequisite = {
-			focus = newfocus_61
-		}
-		mutually_exclusive = {
-			focus = newfocus_43
-		}
-		x = 7
-		y = 3
-
-	}
-	focus = {
 		id = newfocus_2
 		icon = GFX_focus_chi_legislative_yuan
 		cost = 10.00
@@ -1355,10 +1341,9 @@ focus_tree = {
 		prerequisite = { focus = newfocus_0 }
 		available = { 
 			has_country_leader =  {
-				name = "사이토 마코토"
+				name = "준군사위원회"
 				ruling_only = yes
 			}
-		}
 		x = 8
 		y = 5
 		completion_reward = {
@@ -1369,6 +1354,33 @@ focus_tree = {
 				expire = "1999.1.1"
 				ideology = socialism
 				traits = {#}
+	}
+	focus = {
+		id = newfocus_1
+		icon = GFX_goal_support_democracy
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_61
+		}
+		mutually_exclusive = {
+			focus = newfocus_43
+		}
+		available = { 
+			has_country_leader =  {
+				name = "사이토 마코토"
+				ruling_only = yes
 			}
 		}
-  	}
+			x = 7
+			y = 3
+		completion_reward = {
+  			create_country_leader = {
+				name = "준군사위원회"
+				desc = ""
+				picture = ""
+				expire = "1999.1.1"
+				ideology = fascism
+				traits = {#}
+			}
+		}
+	}
