@@ -28,7 +28,125 @@ focus_tree = {
 		}
 		x = 15
 		y = 1
+		completion_reward = {
+add_autonomy_ratio = {
+	value = 1 }
+create_field_marshal = {
+  name = "홍범도"
+  picture = "bumknife2.dds"
+  traits = { }
+  skill = 7
 
+  attack_skill = 7
+  defense_skill = 5
+  planning_skill = 7
+  logistics_skill = 6
+}
+
+create_field_marshal = {
+  name = "김좌진"
+  picture = "left_jin2.dds"
+  traits = { }
+  skill = 8
+
+  attack_skill = 5
+  defense_skill = 8
+  planning_skill = 4
+  logistics_skill = 7
+}
+
+create_corps_commander = {
+  name = "이범석"
+  picture = "bomrock.dds"
+  traits = { }
+  skill = 8
+
+  attack_skill = 7
+  defense_skill = 6
+  planning_skill = 3
+  logistics_skill = 7
+}
+
+create_corps_commander = {
+  name = "박경철"
+  picture = "keongiron.dds"
+  traits = { }
+  skill = 3
+
+  attack_skill = 3
+  defense_skill = 5
+  planning_skill = 2
+  logistics_skill = 6
+}
+
+create_corps_commander = {
+  name = "김홍일"
+  picture = "hong1.dds"
+  traits = { }
+  skill = 8
+
+  attack_skill = 3
+  defense_skill = 7
+  planning_skill = 6
+  logistics_skill = 5
+}
+
+create_field_marshal = {
+  name = "지청천"
+  picture = "chong1000.dds"
+  traits = { }
+  skill = 8
+
+  attack_skill = 7
+  defense_skill = 4
+  planning_skill = 2
+  logistics_skill = 6
+}
+
+create_field_marshal = {
+  name = "김경천"
+  picture = "geong1000.dds"
+  traits = { }
+  skill = 8
+
+  attack_skill = 6
+  defense_skill = 5
+  planning_skill = 6
+  logistics_skill = 4
+}
+
+create_field_marshal = {
+  name = "김원봉"
+  picture = "1bong.dds"
+  traits = { }
+  skill = 8
+
+  attack_skill = 9
+  defense_skill = 2
+  planning_skill = 8
+  logistics_skill = 3
+}
+create_corps_commander = {
+  name = "김학규"
+  picture = "hak_ku.dds"
+  traits = { }
+  skill = 8
+
+  attack_skill = 5
+  defense_skill = 7
+  planning_skill = 6
+  logistics_skill = 4
+}
+
+create_country_leader = {
+	name = "독립위원회"
+	desc = ""
+	picture = ""
+	expire = "1999.1.1"
+	ideology = fascism_ideology
+	traits = { }
+			}
+		}
 	}
 	focus = {
 		id = newfocus_61
@@ -43,6 +161,20 @@ focus_tree = {
 		x = 11
 		y = 2
 
+	}
+		focus = {
+		id = newfocus_1
+		icon = GFX_goal_support_democracy
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_61
+		}
+		mutually_exclusive = {
+			focus = newfocus_43
+		}
+			x = 7
+			y = 3
+	
 	}
 	focus = {
 		id = newfocus_2
@@ -82,7 +214,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_0
-		icon = GFX_goal_unknown
+		icon = GFX_focus_chi_mission_to_the_us
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_1
@@ -107,7 +239,7 @@ focus_tree = {
 	}
 	focus = {
 		id = newfocus_43
-		icon = GFX_goal_unknown
+		icon = GFX_
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_61
@@ -1332,18 +1464,18 @@ focus_tree = {
 		}
 		x = 24
 		y = 15
-
 	}
 	focus = {
 		id = newfocus_12
-		icon = GFX_goal_unknown
+		icon = GFX_focus_two_peo2
 		cost = 10.00
 		prerequisite = { focus = newfocus_0 }
 		available = { 
 			has_country_leader =  {
-				name = "준군사위원회"
+				name = "독립위원회"
 				ruling_only = yes
 			}
+		}
 		x = 8
 		y = 5
 		completion_reward = {
@@ -1353,33 +1485,6 @@ focus_tree = {
 				picture = ""
 				expire = "1999.1.1"
 				ideology = socialism
-				traits = {#}
-	}
-	focus = {
-		id = newfocus_1
-		icon = GFX_goal_support_democracy
-		cost = 10.00
-		prerequisite = {
-			focus = newfocus_61
-		}
-		mutually_exclusive = {
-			focus = newfocus_43
-		}
-		available = { 
-			has_country_leader =  {
-				name = "사이토 마코토"
-				ruling_only = yes
-			}
-		}
-			x = 7
-			y = 3
-		completion_reward = {
-  			create_country_leader = {
-				name = "준군사위원회"
-				desc = ""
-				picture = ""
-				expire = "1999.1.1"
-				ideology = fascism
 				traits = {#}
 			}
 		}

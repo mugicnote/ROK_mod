@@ -35,12 +35,33 @@ ideas = {
             
             removal_cost = -1
 
-            picture = idea_chi_army_corruption
+            picture = state_shintoism
             
             modifier = {
                 stability_factor = -0.3
                 war_support_factor = -0.3
                 conscription = -0.65
+            }
+        }
+        anti_Japanese_movement = {
+            
+            allowed = {
+                original_tag = KOR
+                always = no
+            }
+            
+            allowed_civil_war = {
+                always = no
+            }
+
+            removal_cost = -1
+
+            picture = chi_war_of_resistance3
+
+            modifier = {
+                democratic_drift = 0.25
+                neutrality_drift = 0.1
+                communism_drift = 0.2
             }
         }
     }
