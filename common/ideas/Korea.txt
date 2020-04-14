@@ -82,6 +82,7 @@ ideas = {
                 military_leader_cost_factor = 1.00
             }
         }
+        
         political_advisor = {
 
                 kim_ku = {
@@ -92,6 +93,15 @@ ideas = {
                     original_tag = "KOR"
                 }
             
+                visible = {
+                NOT = {
+                    has_country_leader = {
+                        name = "Kim Koo"
+                        ruling_only = yes
+                    }
+                }
+            }
+
                 traits = { Popular_Figurehead }
             
             }
