@@ -1,4 +1,4 @@
-capital = 525
+capital = 797
 
 #oob = #
 
@@ -46,6 +46,7 @@ add_ideas = {
     KOR_closed_door_politics
     Colony_of_Japan
     anti_Japanese_movement
+    KOR_military_disloyalty
 }
 
 #시작_정당
@@ -57,9 +58,9 @@ set_politics = {
 }
 #시작시_정당들의_인기도
 set_popularities = {
-    democratic = 10
-    fascism = 70
-    communism = 10
+    democratic = 30
+    fascism = 45
+    communism = 15
     neutrality = 10
 }
 

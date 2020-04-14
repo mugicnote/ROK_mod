@@ -64,5 +64,23 @@ ideas = {
                 communism_drift = 0.2
             }
         }
+            KOR_military_disloyalty = {
+
+            picture = chi_war_of_resistance
+
+            allowed = {
+                original_tag = KOR
+                NOT = { has_global_flag = spanish_civil_war }
+            }
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            modifier = {
+                custom_modifier_tooltip = SPR_military_disloyalty_tt
+                military_leader_cost_factor = 1.00
+            }
+        }
     }
 }

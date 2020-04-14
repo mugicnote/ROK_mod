@@ -10,7 +10,7 @@ focus_tree = {
 	default = no
 	focus = {
 		id = newfocus_15
-		icon = GFX_goal_unknown
+		icon = GFX_focus_spr_crush_the_revolution
 		cost = 10.00
 		x = 21
 		y = 0
@@ -175,6 +175,9 @@ create_country_leader = {
 			x = 7
 			y = 3
 	
+	 	completion_reward = {
+			country_event = KOR.1
+		}
 	}
 	focus = {
 		id = newfocus_2
@@ -188,7 +191,9 @@ create_country_leader = {
 		}
 		x = 4
 		y = 4
-
+		available = {
+		has_country_flag = KOR_kim
+		}
 	}
 	focus = {
 		id = newfocus_3
@@ -224,11 +229,13 @@ create_country_leader = {
 		}
 		x = 9
 		y = 4
-
+		available = {
+		has_country_flag = KOR_lee
+		}
 	}
 	focus = {
 		id = newfocus_13
-		icon = GFX_goal_unknown
+		icon = GFX_focus_usa_union_representation_act
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_0
@@ -239,7 +246,7 @@ create_country_leader = {
 	}
 	focus = {
 		id = newfocus_43
-		icon = GFX_
+		icon = GFX_goal_kor_spr_the_anti_fascist_workers_revolution
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_61
@@ -788,7 +795,7 @@ create_country_leader = {
 	}
 	focus = {
 		id = newfocus_14
-		icon = GFX_goal_unknown
+		icon = GFX_focus_jap_cast_the_die
 		cost = 10.00
 		prerequisite = {
 			focus = newfocus_12
@@ -1467,7 +1474,7 @@ create_country_leader = {
 	}
 	focus = {
 		id = newfocus_12
-		icon = GFX_focus_two_peo2
+		icon = GFX_goal_two_peo2
 		cost = 10.00
 		prerequisite = { focus = newfocus_0 }
 		available = { 

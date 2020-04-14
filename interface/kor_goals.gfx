@@ -1,0 +1,12 @@
+spriteTypes = {	
+
+	SpriteType = {
+		name = "GFX_goal_two_peo2"
+		texturefile = "gfx/interface/goals/goal_two_peo2.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_kor_spr_the_anti_fascist_workers_revolution"
+		texturefile = "gfx/interface/goals/goal_kor_spr_the_anti_fascist_workers_revolution.dds"
+	}
+
+}
