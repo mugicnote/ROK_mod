@@ -316,10 +316,6 @@ if = {
 		target = MAN
 		autonomous_state = autonomy_integrated_puppet
 	}
-	set_autonomy = {
-    	target = KOR
-    	autonomous_state = autonomy_puppet
-	}
 }
 if = {
 	limit = { 

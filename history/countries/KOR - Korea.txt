@@ -110,4 +110,109 @@ create_country_leader = {
 }
 
 #육군_장군_및_육군_원수
-#중점으로 획득가능
+create_field_marshal = {
+  name = "홍범도"
+  picture = "bumknife2.dds"
+  traits = { }
+  skill = 7
+
+  attack_skill = 7
+  defense_skill = 5
+  planning_skill = 7
+  logistics_skill = 6
+}
+
+create_field_marshal = {
+  name = "김좌진"
+  picture = "left_jin2.dds"
+  traits = { }
+  skill = 8
+
+  attack_skill = 5
+  defense_skill = 8
+  planning_skill = 4
+  logistics_skill = 7
+}
+
+create_corps_commander = {
+  name = "이범석"
+  picture = "bomrock.dds"
+  traits = { }
+  skill = 8
+
+  attack_skill = 7
+  defense_skill = 6
+  planning_skill = 3
+  logistics_skill = 7
+}
+
+create_corps_commander = {
+  name = "박경철"
+  picture = "keongiron.dds"
+  traits = { }
+  skill = 3
+
+  attack_skill = 3
+  defense_skill = 5
+  planning_skill = 2
+  logistics_skill = 6
+}
+
+create_corps_commander = {
+  name = "김홍일"
+  picture = "hong1.dds"
+  traits = { }
+  skill = 8
+
+  attack_skill = 3
+  defense_skill = 7
+  planning_skill = 6
+  logistics_skill = 5
+}
+
+create_field_marshal = {
+  name = "지청천"
+  picture = "chong1000.dds"
+  traits = { }
+  skill = 8
+
+  attack_skill = 7
+  defense_skill = 4
+  planning_skill = 2
+  logistics_skill = 6
+}
+
+create_field_marshal = {
+  name = "김경천"
+  picture = "geong1000.dds"
+  traits = { }
+  skill = 8
+
+  attack_skill = 6
+  defense_skill = 5
+  planning_skill = 6
+  logistics_skill = 4
+}
+
+create_field_marshal = {
+  name = "김원봉"
+  picture = "1bong.dds"
+  traits = { }
+  skill = 8
+
+  attack_skill = 9
+  defense_skill = 2
+  planning_skill = 8
+  logistics_skill = 3
+}
+create_corps_commander = {
+  name = "김학규"
+  picture = "hak_ku.dds"
+  traits = { }
+  skill = 8
+
+  attack_skill = 5
+  defense_skill = 7
+  planning_skill = 6
+  logistics_skill = 4
+}
