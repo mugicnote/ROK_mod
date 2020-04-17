@@ -39,14 +39,11 @@ set_technology = {
 }
 
 #수송선
-set_convoys = 10
+set_convoys = 30
 
 #국민정신
 add_ideas = {
-    KOR_closed_door_politics
-    Colony_of_Japan
-    anti_Japanese_movement
-    KOR_military_disloyalty
+KOR_a_well_informed_general
 }
 
 #시작_정당

@@ -2,66 +2,23 @@ ideas = {
 
     country = {
         
-        KOR_closed_door_politics = {
-            
-            allowed = {
-				original_tag = KOR
-				always = no
-			}
-            
-            allowed_civil_war = {
-                always = no
-            }
-            
-            removal_cost = -1
+        KOR_a_well_informed_general
 
-            picture = generic_disjointed_gov
-            
-            modifier = {
-                political_power_cost = 1
-            }
-        }
-
-        Colony_of_Japan = {
-            
             allowed = {
                 original_tag = KOR
-                always = no
             }
-            
-            allowed_civil_war = {
-                always = no
-            }
-            
-            removal_cost = -1
 
-            picture = state_shintoism
-            
-            modifier = {
-                stability_factor = -0.3
-                war_support_factor = -0.3
-                conscription = -0.65
-            }
-        }
-        anti_Japanese_movement = {
-            
-            allowed = {
-                original_tag = KOR
-                always = no
-            }
-            
             allowed_civil_war = {
-                always = no
+                always = yes
             }
+
+            picture = general_staff
 
             removal_cost = -1
-
-            picture = chi_war_of_resistance3
-
+            
             modifier = {
-                democratic_drift = 0.25
-                neutrality_drift = 0.1
-                communism_drift = 0.2
+                army_org_Factor = 0.05
+                planning_speed = 0.25
             }
         }
     }
@@ -81,6 +38,7 @@ ideas = {
                 allowed = {
                     original_tag = "KOR"
                 }
-            traits = { communist_revolutionary }
+            
+                traits = { communist_revolutionary }
+            }
         }
-    }

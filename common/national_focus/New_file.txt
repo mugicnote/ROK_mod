@@ -12,8 +12,11 @@ focus_tree = {
 		id = democratic_election
 		icon = GFX_goal_support_democracy
 		cost = 10.00
+		prerequisite = {
+			focus = military_arrest
+		}
 		x = 8
-		y = 0
+		y = 2
 
 	}
 	focus = {
@@ -26,7 +29,7 @@ focus_tree = {
 			focus = Strong_regime
 		}
 		x = 6
-		y = 8
+		y = 10
 
 	}
 	focus = {
@@ -41,7 +44,7 @@ focus_tree = {
 			focus = Korea_Association_for_the_Promotion_of_Independence
 		}
 		x = 6
-		y = 1
+		y = 3
 
 	}
 	focus = {
@@ -52,7 +55,7 @@ focus_tree = {
 			focus = Korean_People's_Party
 		}
 		x = 3
-		y = 2
+		y = 4
 
 	}
 	focus = {
@@ -63,7 +66,7 @@ focus_tree = {
 			focus = Yeo_Un-hyung's_election
 		}
 		x = 1
-		y = 3
+		y = 5
 
 	}
 	focus = {
@@ -74,7 +77,7 @@ focus_tree = {
 			focus = Yeo_Un-hyung's_election
 		}
 		x = 3
-		y = 3
+		y = 5
 
 	}
 	focus = {
@@ -85,7 +88,7 @@ focus_tree = {
 			focus = Anyone_should_be_protected
 		}
 		x = 3
-		y = 4
+		y = 6
 
 	}
 	focus = {
@@ -96,7 +99,7 @@ focus_tree = {
 			focus = Yeo_Un-hyung's_election
 		}
 		x = 5
-		y = 3
+		y = 5
 
 	}
 	focus = {
@@ -107,7 +110,7 @@ focus_tree = {
 			focus = Law_for_the_People
 		}
 		x = 5
-		y = 4
+		y = 6
 
 	}
 	focus = {
@@ -119,7 +122,7 @@ focus_tree = {
 			focus = Exterminate_crime
 		}
 		x = 4
-		y = 5
+		y = 7
 
 	}
 	focus = {
@@ -130,7 +133,7 @@ focus_tree = {
 			focus = The_Theory_of_Strengthening_External_Influence
 		}
 		x = 5
-		y = 9
+		y = 11
 
 	}
 	focus = {
@@ -145,7 +148,7 @@ focus_tree = {
 			focus = Korea_Association_for_the_Promotion_of_Independence
 		}
 		x = 8
-		y = 1
+		y = 3
 
 	}
 	focus = {
@@ -160,7 +163,7 @@ focus_tree = {
 			focus = Korean_People's_Party
 		}
 		x = 10
-		y = 1
+		y = 3
 
 	}
 	focus = {
@@ -173,7 +176,7 @@ focus_tree = {
 			focus = Korea_Association_for_the_Promotion_of_Independence
 		}
 		x = 8
-		y = 2
+		y = 4
 
 	}
 	focus = {
@@ -184,7 +187,7 @@ focus_tree = {
 			focus = threats_from_opposition_parties
 		}
 		x = 7
-		y = 3
+		y = 5
 
 	}
 	focus = {
@@ -195,7 +198,7 @@ focus_tree = {
 			focus = threats_from_opposition_parties
 		}
 		x = 9
-		y = 3
+		y = 5
 
 	}
 	focus = {
@@ -209,7 +212,7 @@ focus_tree = {
 			focus = threat_of_communism
 		}
 		x = 8
-		y = 4
+		y = 6
 
 	}
 	focus = {
@@ -220,7 +223,7 @@ focus_tree = {
 			focus = End_the_Civil_War
 		}
 		x = 6
-		y = 5
+		y = 7
 
 	}
 	focus = {
@@ -231,7 +234,7 @@ focus_tree = {
 			focus = End_the_Civil_War
 		}
 		x = 8
-		y = 5
+		y = 7
 
 	}
 	focus = {
@@ -242,7 +245,7 @@ focus_tree = {
 			focus = Promote_ideology
 		}
 		x = 8
-		y = 6
+		y = 8
 
 	}
 	focus = {
@@ -253,7 +256,7 @@ focus_tree = {
 			focus = Fight_for_the_Nation
 		}
 		x = 8
-		y = 7
+		y = 9
 
 	}
 	focus = {
@@ -264,7 +267,7 @@ focus_tree = {
 			focus = End_the_Civil_War
 		}
 		x = 10
-		y = 5
+		y = 7
 
 	}
 	focus = {
@@ -275,7 +278,7 @@ focus_tree = {
 			focus = Request_help
 		}
 		x = 10
-		y = 6
+		y = 8
 
 	}
 	focus = {
@@ -286,7 +289,7 @@ focus_tree = {
 			focus = Support_to_the_United_States
 		}
 		x = 10
-		y = 7
+		y = 9
 
 	}
 	focus = {
@@ -297,7 +300,7 @@ focus_tree = {
 			focus = Korean_Independence_Party
 		}
 		x = 14
-		y = 2
+		y = 4
 
 	}
 	focus = {
@@ -308,7 +311,7 @@ focus_tree = {
 			focus = Kim_Gu_Elected
 		}
 		x = 12
-		y = 3
+		y = 5
 
 	}
 	focus = {
@@ -319,7 +322,7 @@ focus_tree = {
 			focus = Democratic_Human_Rights_Bureau
 		}
 		x = 12
-		y = 4
+		y = 6
 
 	}
 	focus = {
@@ -330,7 +333,7 @@ focus_tree = {
 			focus = Acknowledge_freedom_of_speech
 		}
 		x = 12
-		y = 5
+		y = 7
 
 	}
 	focus = {
@@ -341,7 +344,7 @@ focus_tree = {
 			focus = Accept_for_religious_freedom
 		}
 		x = 12
-		y = 6
+		y = 8
 
 	}
 	focus = {
@@ -352,7 +355,7 @@ focus_tree = {
 			focus = Kim_Gu_Elected
 		}
 		x = 14
-		y = 3
+		y = 5
 
 	}
 	focus = {
@@ -363,7 +366,7 @@ focus_tree = {
 			focus = Korea_Association_for_the_Promotion_of_Independence
 		}
 		x = 18
-		y = 2
+		y = 4
 
 	}
 	focus = {
@@ -374,7 +377,7 @@ focus_tree = {
 			focus = Lee_Seung-man_Elected
 		}
 		x = 16
-		y = 3
+		y = 5
 
 	}
 	focus = {
@@ -386,7 +389,7 @@ focus_tree = {
 			focus = Enforcement_of_laws_for_safety
 		}
 		x = 15
-		y = 4
+		y = 6
 
 	}
 	focus = {
@@ -400,7 +403,7 @@ focus_tree = {
 			focus = The_state_needs_law
 		}
 		x = 14
-		y = 5
+		y = 7
 
 	}
 	focus = {
@@ -411,7 +414,7 @@ focus_tree = {
 			focus = New_National_Security_Law
 		}
 		x = 16
-		y = 5
+		y = 7
 
 	}
 	focus = {
@@ -423,7 +426,7 @@ focus_tree = {
 			focus = Adding_emergency_martial_law_authority
 		}
 		x = 16
-		y = 6
+		y = 8
 
 	}
 	focus = {
@@ -434,7 +437,7 @@ focus_tree = {
 			focus = Democratic_Constitution
 		}
 		x = 14
-		y = 6
+		y = 8
 
 	}
 	focus = {
@@ -445,7 +448,7 @@ focus_tree = {
 			focus = Let_all_the_people_be_appointed
 		}
 		x = 1
-		y = 4
+		y = 6
 
 	}
 	focus = {
@@ -456,7 +459,7 @@ focus_tree = {
 			focus = Communism_and_illuminating
 		}
 		x = 1
-		y = 5
+		y = 7
 
 	}
 	focus = {
@@ -467,7 +470,7 @@ focus_tree = {
 			focus = Fight_the_Civil_War
 		}
 		x = 6
-		y = 6
+		y = 8
 
 	}
 	focus = {
@@ -478,7 +481,7 @@ focus_tree = {
 			focus = Specify_vacuum_defense_line
 		}
 		x = 6
-		y = 7
+		y = 9
 
 	}
 	focus = {
@@ -491,7 +494,7 @@ focus_tree = {
 			focus = Request_Support_to_the_United_Kingdom
 		}
 		x = 8
-		y = 8
+		y = 10
 
 	}
 	focus = {
@@ -503,7 +506,7 @@ focus_tree = {
 			focus = Protected_by_law
 		}
 		x = 12
-		y = 7
+		y = 9
 
 	}
 	focus = {
@@ -514,7 +517,7 @@ focus_tree = {
 			focus = The_Equal_People's_Society
 		}
 		x = 4
-		y = 7
+		y = 9
 
 	}
 	focus = {
@@ -526,7 +529,7 @@ focus_tree = {
 			focus = Don't_fight_inside
 		}
 		x = 3
-		y = 6
+		y = 8
 
 	}
 	focus = {
@@ -540,7 +543,7 @@ focus_tree = {
 			focus = Return_President
 		}
 		x = 9
-		y = 9
+		y = 11
 
 	}
 	focus = {
@@ -554,7 +557,7 @@ focus_tree = {
 			focus = Former_Presidential_Law
 		}
 		x = 11
-		y = 9
+		y = 11
 
 	}
 	focus = {
@@ -566,7 +569,7 @@ focus_tree = {
 			focus = Former_Presidential_Law
 		}
 		x = 10
-		y = 11
+		y = 13
 
 	}
 	focus = {
@@ -580,7 +583,7 @@ focus_tree = {
 			focus = Cancel_the_second_term
 		}
 		x = 12
-		y = 10
+		y = 12
 
 	}
 	focus = {
@@ -594,7 +597,7 @@ focus_tree = {
 			focus = Introduction_to_a_second_term_additive
 		}
 		x = 10
-		y = 10
+		y = 12
 
 	}
 	focus = {
@@ -607,7 +610,7 @@ focus_tree = {
 			focus = Strong_regime
 		}
 		x = 10
-		y = 8
+		y = 10
 
 	}
 	focus = {
@@ -618,7 +621,7 @@ focus_tree = {
 			focus = Introduction_to_a_second_term_additive
 		}
 		x = 12
-		y = 11
+		y = 13
 
 	}
 	focus = {
@@ -633,7 +636,7 @@ focus_tree = {
 			focus = Presidential-centered_parliamentary_cabinet_system
 		}
 		x = 10
-		y = 12
+		y = 14
 
 	}
 	focus = {
@@ -644,7 +647,7 @@ focus_tree = {
 			focus = The_Theory_of_Strengthening_External_Influence
 		}
 		x = 7
-		y = 9
+		y = 11
 
 	}
 	focus = {
@@ -659,7 +662,7 @@ focus_tree = {
 			focus = Legislation_consolidation_of_judiciary
 		}
 		x = 12
-		y = 12
+		y = 14
 
 	}
 	focus = {
@@ -670,7 +673,7 @@ focus_tree = {
 			focus = Revised_Constitution
 		}
 		x = 16
-		y = 7
+		y = 9
 
 	}
 	focus = {
@@ -681,7 +684,7 @@ focus_tree = {
 			focus = Lee_Seung-man_Elected
 		}
 		x = 18
-		y = 3
+		y = 5
 
 	}
 	focus = {
@@ -692,7 +695,7 @@ focus_tree = {
 			focus = establishing_a_supporting_ruling_party
 		}
 		x = 18
-		y = 4
+		y = 6
 
 	}
 	focus = {
@@ -703,7 +706,95 @@ focus_tree = {
 			focus = Seoul_Political_Crisis
 		}
 		x = 18
-		y = 5
+		y = 7
+
+	}
+	focus = {
+		id = Japan's_Collections_of_Mergers_Claims
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = Claiming_Japan's_annexation_of_Korea
+		}
+		x = 8
+		y = 12
+
+	}
+	focus = {
+		id = Bongcheon_government's_rejection_of_Manchurian_rule_of_Korea
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = Manju_Korean_Governance_Theory
+		}
+		mutually_exclusive = {
+			focus = Accepting_Bongcheon_Government's_Theory_of_Governance_in_Korea
+		}
+		x = 6
+		y = 12
+
+	}
+	focus = {
+		id = military_arrest
+		icon = GFX_focus_mex_arrest_general_cedillo
+		cost = 10.00
+		prerequisite = {
+			focus = A_military_revolution
+		}
+		mutually_exclusive = {
+			focus = military_success
+		}
+		x = 18
+		y = 1
+
+	}
+	focus = {
+		id = A_military_revolution
+		icon = GFX_goal_unknown
+		cost = 10.00
+
+		x = 23
+		y = 0
+
+	}
+	focus = {
+		id = Accepting_Bongcheon_Government's_Theory_of_Governance_in_Korea
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = Manju_Korean_Governance_Theory
+		}
+		mutually_exclusive = {
+			focus = Bongcheon_government's_rejection_of_Manchurian_rule_of_Korea
+		}
+		x = 4
+		y = 12
+
+	}
+	focus = {
+		id = democratic_nations_of_east_asia
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = Accepting_Bongcheon_Government's_Theory_of_Governance_in_Korea
+			focus = Bongcheon_government's_rejection_of_Manchurian_rule_of_Korea
+		}
+		x = 5
+		y = 13
+
+	}
+	focus = {
+		id = military_success
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = A_military_revolution
+		}
+		mutually_exclusive = {
+			focus = military_arrest
+		}
+		x = 28
+		y = 1
 
 	}
 }

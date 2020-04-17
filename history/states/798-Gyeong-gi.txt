@@ -2,7 +2,7 @@ state=
 {
 	id=798
 	name="STATE_798"
-	manpower = 14284105
+	manpower = 2476614
 	
 	state_category = town
 	history=
