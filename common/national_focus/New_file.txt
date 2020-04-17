@@ -49,7 +49,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Yeo_Un-hyung's_election
-		icon = GFX_goal_unknown
+		icon = GFX_focus_ryuh_woonhyung
 		cost = 10.00
 		prerequisite = {
 			focus = Korean_People's_Party
@@ -294,7 +294,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Kim_Gu_Elected
-		icon = GFX_goal_unknown
+		icon = GFX_focus_kim_koo
 		cost = 10.00
 		prerequisite = {
 			focus = Korean_Independence_Party
@@ -360,7 +360,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Lee_Seung-man_Elected
-		icon = GFX_goal_unknown
+		icon = GFX_focus_syngman_rhee
 		cost = 10.00
 		prerequisite = {
 			focus = Korea_Association_for_the_Promotion_of_Independence

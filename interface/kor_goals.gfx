@@ -4,9 +4,24 @@ spriteTypes = {
 		name = "GFX_goal_two_peo2"
 		texturefile = "gfx/interface/goals/goal_two_peo2.dds"
 	}
+
 	SpriteType = {
 		name = "GFX_goal_kor_spr_the_anti_fascist_workers_revolution"
 		texturefile = "gfx/interface/goals/goal_kor_spr_the_anti_fascist_workers_revolution.dds"
 	}
 
+	SpriteType = {
+		name = "GFX_focus_kim_koo"
+		texturefile = "gfx/interface/goals/focus_kim_koo.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_ryuh_woonhyung"
+		texturefile = "gfx/interface/goals/focus_ryuh_woonhyung.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_syngman_rhee"
+		texturefile = "gfx/interface/goals/focus_syngman_rhee.dds"
+	}
 }
