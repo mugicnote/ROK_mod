@@ -44,6 +44,8 @@ set_convoys = 30
 #국민정신
 add_ideas = {
 KOR_a_well_informed_general
+KOR_want_big
+Where_are_they
 }
 
 #시작_정당
@@ -85,9 +87,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-  name = "우가키 가즈시네"
-  desc = "POLITICS_UGAKI_GAGESINAE_DESC"
-  picture = "dog.dds"
+  name = "이범석"
+  desc = "POLITICS_LEE_BEOM_DESC"
+  picture = "bomrock.dds"
   expire = "1972.5.11"
   ideology = fascism_ideology
   traits = {

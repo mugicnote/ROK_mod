@@ -4,6 +4,7 @@
   ###여운형###
   Korean_People's_Party:0 "조선인민당"
   Yeo_Un-hyung's_election:0 "여운형 당선"
+  Yeo_Un-hyung's_election_desc:0 "민주적인 선거를 통하여 여운영이 당선되었습니다,여운형은 누구에게나 평등하며 누구에게나 기회를 줍니다.누구에게나 평등하다는 정책을 잘 이용할줄도 압니다."
   Let_all_the_people_be_appointed:0 "인민 누구든 등용하라"
   Communism_and_illuminating:0 "공산주의자라도 등용하라"
   Even_a_fascist:0 "파시스트라도 등용하라"
@@ -32,6 +33,7 @@
   ###김구###
   Korean_Independence_Party:0 "한국독립당"
   Kim_Gu_Elected:0 "김구 당선"
+  Kim_Gu_Elected_desc:0 "민주적인 선거를 통하여 김구선생께서 당선 되셨습니다,감구 선생께서는 국가의 법으로 시민들을 지키며 여러자유를 허락하며 시민들을 자신에 편으로 만듭니다."
   Democratic_Human_Rights_Bureau:0 "민주 인권국"
   Acknowledge_freedom_of_speech:0 "언론자유 인정"
   Accept_for_religious_freedom:0 "종교자유 인정"
@@ -44,6 +46,7 @@
   ###이승만###
   Korea_Association_for_the_Promotion_of_Independence:0 "대한독립촉성국민회"
   Lee_Seung-man_Elected:0 "이승만 당선"
+  Lee_Seung-man_Elected_desc:0 "민주적인 선거로 이승만이 당선되었습니다,이승만은 여러가지 방법을 이용하여 자신을 지킬것이며 또한 시민들을 자신의 편으로 둘것입니다."
   Enforcement_of_laws_for_safety:0 "안전을 위한 법 제정"
   establishing_a_supporting_ruling_party:0 "지지파 여당 설립"
   Adding_emergency_martial_law_authority:0 "긴급 계엄령 권한추가"

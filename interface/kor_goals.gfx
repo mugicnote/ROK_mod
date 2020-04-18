@@ -24,4 +24,8 @@ spriteTypes = {
 		name = "GFX_focus_syngman_rhee"
 		texturefile = "gfx/interface/goals/focus_syngman_rhee.dds"
 	}
+	SpriteType = {
+		name = "GFX_focus_Prison2"
+		texturefile = "gfx/interface/goals/Prison2.dds"
+	}
 }
