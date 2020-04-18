@@ -34,7 +34,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Korean_People's_Party
-		icon = GFX_goal_unknown
+		icon = GFX_focus_focus_fra_national_resistance_council
 		cost = 10.00
 		prerequisite = {
 			focus = democratic_election
@@ -138,7 +138,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Korean_Independence_Party
-		icon = GFX_goal_unknown
+		icon = GFX_focus_eng_special_air_service
 		cost = 10.00
 		prerequisite = {
 			focus = democratic_election
@@ -153,7 +153,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Korea_Association_for_the_Promotion_of_Independence
-		icon = GFX_goal_unknown
+		icon = GFX_focus_por_reclaim_crown_jewel
 		cost = 10.00
 		prerequisite = {
 			focus = democratic_election
@@ -203,7 +203,7 @@ focus_tree = {
 	}
 	focus = {
 		id = End_the_Civil_War
-		icon = GFX_goal_unknown
+		icon = GFX_focus_focus_fra_liberte_egalite_solidarite
 		cost = 10.00
 		prerequisite = {
 			focus = Anikist's_Threat
