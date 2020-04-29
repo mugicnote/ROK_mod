@@ -1,6 +1,38 @@
 ﻿l_english:
   ###민주주의###
   democratic_election:0 "민주적 선거"
+  ###공산주의###
+  election_denial:0 "선거 부정"
+  occupation_of_Parliament:0 "의회 점거"
+  ###공산파 내전###
+  democratic_civil_war:0 "민주파의 내전 주도"
+  Anarchists_participation_in_the_war:0 "아나키스트의 참전"
+  Partizan_recruitment:0 "파르티잔 영입"
+  Win_the_Civil_War:0 "내전에서 승리하라"
+  Searching_for_Soviet_Support:0 "소련의 지원 모색"
+  sacrifice_for_the_nation:0 "국가를 위해 죽어라"
+  For_the_Red_Revolution:0 "뻘건 혁명을 뤼하여"
+  win_a_revolution:0 "뤼대한 혁명을 이끌다"
+  ###(공산)스페인 지원###
+  Seeking_intervention_in_the_Spanish_Civil_War:0 "스패인 내전 개입 모색"
+  preparations_for_the_dispatch_of_troops:0 "대규모 파병 준비"
+  Weapons_Support_to_the_People's_Front:0 "인민 전선에 무기 지원"
+  ###김일성###
+  Workers'_Party_of_Korea:0 "조선 로동당 창설"
+  leader_of_Kim_Il-sung:0 "김일성 령도자"
+  conciliation_of_members_of_the_Communist_Party:0 "청년회 단원 회유"
+  conversion_to_the_Labour:0 "로동당으로 전향"
+  Purge_of_Communist_Party_Members:0 "청년회 단원 숙청"
+  dissolution_of_the_Young_People:0 "고려공산 청년회 해산"
+  assassination_of_a_democrat:0 "민주주의자 암살"
+  proposal_of_a_communist_bill:0 "공산 법안 발의"
+  suppression_of_democracy:0 "민주주의 탄압"
+  injection_of_self-reliance:0 "주체사상 주입"
+  Party_Member_Problem_Solving:0 "당원 문제 해결"
+  domestic_stability:0 "국가 안정"
+  leadership-centered_system:0 "령도자 중심제"
+  ###박헌영###
+  Communist_Party_of_Korea:0 "조선 공산당 재건"
   ###여운형###
   Korean_People's_Party:0 "조선인민당"
   Yeo_Un-hyung's_election:0 "여운형 당선"
@@ -54,6 +86,8 @@
   Revised_Constitution:0 "헌법 수정"
   Strengthen_the_regime:0 "정권을 강화하라"
   Seoul_Political_Crisis:0 "서울정치파동"
+  Hakdo_Patriotic_Corps:0 "학도 호국단 조직"
+  Korean_Anti-Communist_Youth_Corps:0 "반공청년단 창설"
   ###대외 영향력###
   The_Theory_of_Strengthening_External_Influence:0 "대외 영향력 강화론"
   Manju_Korean_Governance_Theory:0 "만주 한국 통치론"
@@ -61,7 +95,8 @@
   Accepting_Bongcheon_Government's_Theory_of_Governance_in_Korea:0 "봉천정부의 한통론 수락"
   Claiming_Japan's_annexation_of_Korea:0 "한.일 합병국 주장제기"
   Japan's_Collections_of_Mergers_Claims:0 "일본의 합병국 주장 수렴"
-  democratic_nations_of_east_asia:0 "대 동아시아 민주국"
+  China's_threat_to_return_Manchuria:0 "중국의 만주 반환 협박"
+  return_of_Manchuria:0 "만주를 중국에 반환"
   ###민주 연임문제###
   Provoking_the_Issue_of_President's_Second_Term:0 "대통령의 연임 문제제기"
   Former_Presidential_Law:0 "종신 대통령법"
@@ -72,6 +107,9 @@
   The_judiciary's_condemnation_of_the_system:0 "사법부의 제도 비난"
   Legislation_consolidation_of_judiciary:0 "입법,사법부 통폐합"
   Presidential-centered_parliamentary_cabinet_system:0 "대통령중심적 의원내각제"
+  dramatic_opposition_from_the_opposition_party:0 "여당의 공세적인 반대"
+  Student_Civilization_a_worthy_undertaking:0 "대구 학생민주의거"
+  a_parliamentary_siege:0 "여당의 국회 공성전"
   ###시작 결정###
   military_arrest:0 "군부 체포"
   A_military_revolution:0 "군부의 혁명?"

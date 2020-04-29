@@ -1,8 +1,8 @@
 spriteTypes = {	
 
 	SpriteType = {
-		name = "GFX_goal_two_peo2"
-		texturefile = "gfx/interface/goals/goal_two_peo2.dds"
+		name = "GFX_two_peo"
+		texturefile = "gfx/interface/goals/two_peo.dds"
 	}
 
 	SpriteType = {
@@ -27,5 +27,17 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_focus_Prison2"
 		texturefile = "gfx/interface/goals/Prison2.dds"
+	}
+	SpriteType = {
+		name = "GFX_Focus_kor_decolonization"
+		texturefile = "gfx/interface/goals/Focus_kor_decolonization.dds"
+	}
+	SpriteType = {
+		name = "GFX_Focus_kor_liberation"
+		texturefile = "gfx/interface/goals/Focus_kor_liberation.dds"
+	}
+	SpriteType = {
+		name = "GFX_Focus_kor_soldaderas"
+		texturefile = "gfx/interface/goals/Focus_kor_soldaderas.dds"
 	}
 }
