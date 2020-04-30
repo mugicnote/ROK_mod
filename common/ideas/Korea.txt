@@ -63,6 +63,8 @@ ideas = {
 
             kim_ku = { 
 
+                picture = kim_koo
+
                 allowed = {
                     original_tag = "KOR"
                 }
@@ -70,12 +72,125 @@ ideas = {
                 traits = { popular_figurehead }
             
             }
+            
             Yeo_Woon_Hyung = {
+
+                picture = ryuh_woonhyung
+
+                allowed = {
+                    original_tag = "KOR"
+                }
+            
+                traits = { propaganda_expert }
+            }
+            
+            Rhee_Syngman = {
+
+                picture = syngman_rhee
+
+                allowed = {
+                    original_tag = "KOR"
+                }
+            
+                traits = { democratic_reformer }
+            }
+
+            Park_Heon_young = {
+
+                picture = pak_honyong
 
                 allowed = {
                     original_tag = "KOR"
                 }
             
                 traits = { communist_revolutionary }
+            }
+
+            Kim_Il_Sung = {
+
+                picture = kim_ilsung
+
+                allowed = {
+                    original_tag = "KOR"
+                }
+            
+                traits = { prince_of_terror }
+            }
+            
+            Shin_Chae_Ho = {
+
+                picture = 
+
+                allowed = {
+                    original_tag = "KOR"
+                }
+            
+                traits = { silent_workhorse }
+            }
+
+            Lee_Bum_Suk = {
+
+                picture = 
+
+                allowed = {
+                    original_tag = "KOR"
+                }
+            
+                traits = { fascist_demagogue }
+            }
+
+            Yu_Il_Han = {
+
+                picture = 
+
+                allowed = {
+                    original_tag = "KOR"
+                }
+            
+                traits = { captain_of_industry }
+            }
+
+            Jang_Taek_Sang = {
+
+                picture = 
+
+                allowed = {
+                    original_tag = "KOR"
+                }
+            
+                traits = { compassionate_gentleman }
+            }
+
+            Chough_Pyung_ok = {
+
+                picture = 
+
+                allowed = {
+                    original_tag = "KOR"
+                }
+            
+                traits = { backroom_backstabber }
+            }
+
+            Korean_Regional_Defense_Association = {
+
+                picture = 
+
+                allowed = {
+                    original_tag = "KOR"
+                }
+            
+                traits = { traditionalist_theorist }
+            }
+
+            Jang_Duk_Soo = {
+
+                picture = 
+
+                allowed = {
+                    original_tag = "KOR"
+                }
+            
+                traits = { editor }
             }
         }

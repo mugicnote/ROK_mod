@@ -1019,7 +1019,7 @@ focus_tree = {
 	}
 	focus = {
 		id = leader_of_Kim_Il-sung
-		icon = GFX_
+		icon = GFX_focus_kim_ilsung
 		cost = 10.00
 		prerequisite = {
 			focus = Workers'_Party_of_Korea

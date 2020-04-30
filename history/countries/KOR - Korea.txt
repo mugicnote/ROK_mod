@@ -112,7 +112,17 @@ create_country_leader = {
 create_field_marshal = {
   name = "홍범도"
   picture = "bumknife2.dds"
-  traits = { }
+  traits = { 
+      #카리스마
+      inspirational_leader
+
+      #산악병        
+      trait_mountaineer
+
+      #매복가
+      ambusher
+  }
+  
   skill = 7
 
   attack_skill = 7
@@ -184,7 +194,14 @@ create_field_marshal = {
 create_field_marshal = {
   name = "김경천"
   picture = "geong1000.dds"
-  traits = { }
+  traits = { 
+  #명석한 전략가
+  Brilliant_Strategist
+  #공격적인 돌격가
+  Aggressive_Assaulter
+  #언덕 싸움꾼
+  Hill_Fighter
+  }
   skill = 8
 
   attack_skill = 6
@@ -196,7 +213,14 @@ create_field_marshal = {
 create_field_marshal = {
   name = "김원봉"
   picture = "1bong.dds"
-  traits = { }
+  traits = { 
+  #정계와의 연줄
+  Politically_Connected
+  #명석한 전략가
+  Brilliant_Strategist
+  #특공대
+  Commando
+  }
   skill = 8
 
   attack_skill = 9
