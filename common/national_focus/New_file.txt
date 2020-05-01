@@ -795,7 +795,7 @@ focus_tree = {
 		mutually_exclusive = {
 			focus = military_arrest
 		}
-		x = 35
+		x = 50
 		y = 1
 
 	}
@@ -1019,7 +1019,7 @@ focus_tree = {
 	}
 	focus = {
 		id = leader_of_Kim_Il-sung
-		icon = GFX_focus_kim_ilsung
+		icon = GFX_
 		cost = 10.00
 		prerequisite = {
 			focus = Workers'_Party_of_Korea
@@ -1148,7 +1148,7 @@ focus_tree = {
 	}
 	focus = {
 		id = leadership-centered_system
-		icon = GFX_
+		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
 			focus = Party_Member_Problem_Solving
@@ -1157,4 +1157,379 @@ focus_tree = {
 		x = 25
 		y = 8
 	}
+	focus = {
+		id = division_of_party
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
+		cost = 10.00
+		prerequisite = {
+			focus = military_success
+		}
+		x = 50
+		y = 2
+
+	}
+	focus = {
+		id = joeson_fascism_party
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = division_of_party
+		}
+		mutually_exclusive = {
+			focus = white_doctor
+		}
+		x = 46
+		y = 3
+
+     }
+	 	focus = {
+		id = white_doctor
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = division_of_party
+		}
+		mutually_exclusive = {
+			focus = joeson_fascism_party
+		}
+		x = 54
+		y = 3
+
+     }
+	 	focus = {
+		id = general_lee
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = joeson_fascism_party
+		}
+		mutually_exclusive = {
+			focus = 
+		}
+		x = 45
+		y = 4
+
+     }
+	 	focus = {
+		id = yeom_dong_jin
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = white_doctor
+		}
+		mutually_exclusive = {
+			focus = 
+		}
+		x = 55
+		y = 4
+
+     }
+		 	focus = {
+		id = opposition_conciliation
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = general_lee
+		}
+		mutually_exclusive = {
+			focus = 
+		}
+		x = 43
+		y = 5
+
+     }
+	 	focus = {
+		id = general_recruitment
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = general_lee
+		}
+		mutually_exclusive = {
+			focus = 
+		}
+		x = 45
+		y = 5
+
+     }
+		focus = {
+		id = sharp_law
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = general_lee
+		}
+		mutually_exclusive = {
+			focus = 
+		}
+		x = 47
+		y = 5
+
+     }
+	    focus = {
+		id = keep_going
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = opposition_conciliation
+		}
+		mutually_exclusive = {
+			focus = kill_opposition
+		}
+		x = 42
+		y = 6
+
+     }
+	 	focus = {
+		id = kill_opposition
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = opposition_conciliation
+		}
+		mutually_exclusive = {
+			focus = keep_going
+		}
+		x = 44
+		y = 6
+
+     }
+	 	focus = {
+		id = general_central_system
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = general_recruitment 
+			focus = sharp_law
+		}
+		mutually_exclusive = {
+			focus = 
+		}
+		x = 46
+		y = 6
+
+     }
+	 	focus = {
+		id = general_center
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = keep_going
+			focus = kill_opposition
+			focus = general_central_system
+		}
+		mutually_exclusive = {
+			focus = 
+		}
+		x = 46
+		y = 7
+
+     }
+	 	focus = {
+		id = press_censorship
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = yeom_dong_jin
+		}
+		mutually_exclusive = {
+			focus = 
+		}
+		x = 53
+		y = 5
+
+     }
+	 	focus = {
+		id = opposition_arrest
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = yeom_dong_jin
+		}
+		mutually_exclusive = {
+			focus = 
+		}
+		x = 55
+		y = 5
+
+     }
+	 	 focus = {
+		id = assassinate_communist
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = yeom_dong_jin
+		}
+		mutually_exclusive = {
+			focus = 
+		}
+		x = 57
+		y = 5
+
+     }
+	 	focus = {
+		id = economy_intervention
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = press_censorship
+		}
+		mutually_exclusive = {
+			focus = 
+		}
+		x = 53
+		y = 6
+
+     }
+	 	focus = {
+		id = merge_opposition_party
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = opposition_arrest
+		}
+		mutually_exclusive = {
+			focus = 
+		}
+		x = 55
+		y = 6
+
+     }
+	 	focus = {
+		id = appeasement_democratic
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = assassinate_communist
+		}
+		mutually_exclusive = {
+			focus = 
+		}
+		x = 57
+		y = 6
+
+     }
+	 	focus = {
+		id = yeom_dong_jin_center
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = economy_intervention
+			focus = merge_opposition_party
+			focus = appeasement_democratic
+		}
+		mutually_exclusive = {
+			focus = 
+		}
+		x = 54
+		y = 7
+
+     }
+	 	focus = {
+		id = secure_stability
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = joeson_fascism_party
+			focus = white_doctor
+		}
+		x = 49
+		y = 4
+	}
+		focus = {
+		id = nationalistic_education
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = secure_stability
+		}
+		x = 49
+		y = 5
+	}
+	 	focus = {
+		id = found_youth
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = nationalistic_education
+		}
+		mutually_exclusive = {
+			focus = 
+		}
+		x = 49
+		y = 6
+
+     }
+	 	focus = {
+		id = retake_shine
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = found_youth
+		}
+		mutually_exclusive = {
+			focus = 
+		}
+		x = 49
+		y = 7
+
+     }
+		focus = {
+		id = support_nationalist
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = joeson_fascism_party
+			focus = white_doctor
+		}	
+		mutually_exclusive = {
+			focus = 
+		}
+		x = 51
+		y = 4
+
+     }
+	    focus = {
+		id = alkassar_defense
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = support_nationalist
+		}
+		mutually_exclusive = {
+			focus = 
+		}
+		x = 51
+		y = 5
+
+     }
+	 	focus = {
+		id = dispatch_special_force
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = alkassar_defense
+		}
+		mutually_exclusive = {
+			focus = 
+		}
+		x = 51
+		y = 6
+
+     }
+	 	focus = {
+		id = support_anything
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = dispatch_special_force
+		}
+		mutually_exclusive = {
+			focus = 
+		}
+		x = 51
+		y = 7
+
+     }
+
 }
