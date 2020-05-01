@@ -1,0 +1,1497 @@
+focus_tree = {
+	id = ROK_KOR_focus_trees
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = KOR
+		}
+	}
+	default = no
+	focus = {
+		id = newfocus_15
+		icon = GFX_focus_spr_crush_the_revolution
+		cost = 10.00
+		x = 21
+		y = 0
+
+	}
+	focus = {
+		id = newfocus_4
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_15
+		}
+		mutually_exclusive = {
+			focus = newfocus_36
+		}
+		x = 15
+		y = 1
+		completion_reward = {
+		add_autonomy_ratio = { value = 1 }
+create_field_marshal = {
+  name = "홍범도"
+  picture = "bumknife2.dds"
+  traits = { }
+  skill = 7
+
+  attack_skill = 7
+  defense_skill = 5
+  planning_skill = 7
+  logistics_skill = 6
+}
+
+create_field_marshal = {
+  name = "김좌진"
+  picture = "left_jin2.dds"
+  traits = { }
+  skill = 8
+
+  attack_skill = 5
+  defense_skill = 8
+  planning_skill = 4
+  logistics_skill = 7
+}
+
+create_corps_commander = {
+  name = "이범석"
+  picture = "bomrock.dds"
+  traits = { }
+  skill = 8
+
+  attack_skill = 7
+  defense_skill = 6
+  planning_skill = 3
+  logistics_skill = 7
+}
+
+create_corps_commander = {
+  name = "박경철"
+  picture = "keongiron.dds"
+  traits = { }
+  skill = 3
+
+  attack_skill = 3
+  defense_skill = 5
+  planning_skill = 2
+  logistics_skill = 6
+}
+
+create_corps_commander = {
+  name = "김홍일"
+  picture = "hong1.dds"
+  traits = { }
+  skill = 8
+
+  attack_skill = 3
+  defense_skill = 7
+  planning_skill = 6
+  logistics_skill = 5
+}
+
+create_field_marshal = {
+  name = "지청천"
+  picture = "chong1000.dds"
+  traits = { }
+  skill = 8
+
+  attack_skill = 7
+  defense_skill = 4
+  planning_skill = 2
+  logistics_skill = 6
+}
+
+create_field_marshal = {
+  name = "김경천"
+  picture = "geong1000.dds"
+  traits = { }
+  skill = 8
+
+  attack_skill = 6
+  defense_skill = 5
+  planning_skill = 6
+  logistics_skill = 4
+}
+
+create_field_marshal = {
+  name = "김원봉"
+  picture = "1bong.dds"
+  traits = { }
+  skill = 8
+
+  attack_skill = 9
+  defense_skill = 2
+  planning_skill = 8
+  logistics_skill = 3
+}
+create_corps_commander = {
+  name = "김학규"
+  picture = "hak_ku.dds"
+  traits = { }
+  skill = 8
+
+  attack_skill = 5
+  defense_skill = 7
+  planning_skill = 6
+  logistics_skill = 4
+}
+
+create_country_leader = {
+	name = "독립위원회"
+	desc = ""
+	picture = ""
+	expire = "1999.1.1"
+	ideology = fascism_ideology
+	traits = { }
+			}
+		}
+	}
+	focus = {
+		id = newfocus_61
+		icon = GFX_goal_generic_demand_territory
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_4
+		}
+		mutually_exclusive = {
+			focus = newfocus_62
+		}
+		x = 11
+		y = 2
+
+	}
+		focus = {
+		id = newfocus_1
+		icon = GFX_goal_support_democracy
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_61
+		}
+		mutually_exclusive = {
+			focus = newfocus_43
+		}
+			x = 7
+			y = 3
+	
+	 	completion_reward = {
+			country_event = KOR.1
+		}
+	}
+	focus = {
+		id = newfocus_2
+		icon = GFX_focus_chi_legislative_yuan
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_1
+		}
+		mutually_exclusive = {
+			focus = newfocus_0
+		}
+		x = 4
+		y = 4
+		available = {
+		has_country_flag = KOR_kim
+		}
+	}
+	focus = {
+		id = newfocus_3
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_2
+		}
+		x = 3
+		y = 5
+
+	}
+	focus = {
+		id = newfocus_5
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_2
+		}
+		x = 5
+		y = 5
+
+	}
+	focus = {
+		id = newfocus_0
+		icon = GFX_focus_chi_mission_to_the_us
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_1
+		}
+		mutually_exclusive = {
+			focus = newfocus_2
+		}
+		x = 9
+		y = 4
+		available = {
+		has_country_flag = KOR_lee
+		}
+	}
+	focus = {
+		id = newfocus_13
+		icon = GFX_focus_usa_union_representation_act
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_0
+		}
+		x = 10
+		y = 5
+
+	}
+	focus = {
+		id = newfocus_43
+		icon = GFX_goal_kor_spr_the_anti_fascist_workers_revolution
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_61
+		}
+		mutually_exclusive = {
+			focus = newfocus_1
+		}
+		x = 14
+		y = 3
+
+	}
+	focus = {
+		id = newfocus_44
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_43
+		}
+		x = 14
+		y = 4
+
+	}
+	focus = {
+		id = newfocus_46
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_44
+		}
+		x = 12
+		y = 5
+
+	}
+	focus = {
+		id = newfocus_45
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_44
+		}
+		x = 14
+		y = 5
+
+	}
+	focus = {
+		id = newfocus_47
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_44
+		}
+		x = 16
+		y = 5
+
+	}
+	focus = {
+		id = newfocus_48
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_45
+		}
+		prerequisite = {
+			focus = newfocus_46
+		}
+		prerequisite = {
+			focus = newfocus_47
+		}
+		x = 14
+		y = 6
+
+	}
+	focus = {
+		id = newfocus_49
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_48
+		}
+		mutually_exclusive = {
+			focus = newfocus_50
+		}
+		x = 13
+		y = 7
+
+	}
+	focus = {
+		id = newfocus_51
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_49
+		}
+		x = 13
+		y = 8
+
+	}
+	focus = {
+		id = newfocus_50
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_48
+		}
+		mutually_exclusive = {
+			focus = newfocus_49
+		}
+		x = 15
+		y = 7
+
+	}
+	focus = {
+		id = newfocus_52
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_51
+			focus = newfocus_50
+		}
+		x = 14
+		y = 9
+
+	}
+	focus = {
+		id = newfocus_53
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_52
+		}
+		x = 14
+		y = 10
+
+	}
+	focus = {
+		id = newfocus_54
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_53
+		}
+		x = 15
+		y = 11
+
+	}
+	focus = {
+		id = newfocus_57
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_54
+		}
+		x = 15
+		y = 12
+
+	}
+	focus = {
+		id = newfocus_62
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_4
+		}
+		mutually_exclusive = {
+			focus = newfocus_61
+		}
+		x = 20
+		y = 2
+
+	}
+	focus = {
+		id = newfocus_63
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_62
+		}
+		x = 19
+		y = 3
+
+	}
+	focus = {
+		id = newfocus_65
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_63
+		}
+		x = 19
+		y = 4
+
+	}
+	focus = {
+		id = newfocus_66
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_65
+		}
+		x = 18
+		y = 5
+
+	}
+	focus = {
+		id = newfocus_67
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_66
+		}
+		x = 17
+		y = 6
+
+	}
+	focus = {
+		id = newfocus_68
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_66
+		}
+		x = 19
+		y = 6
+
+	}
+	focus = {
+		id = newfocus_69
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_65
+		}
+		x = 20
+		y = 5
+
+	}
+	focus = {
+		id = newfocus_70
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_68
+		}
+		prerequisite = {
+			focus = newfocus_69
+		}
+		x = 20
+		y = 7
+
+	}
+	focus = {
+		id = newfocus_64
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_62
+		}
+		x = 24
+		y = 3
+
+	}
+	focus = {
+		id = newfocus_87
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_64
+		}
+		x = 24
+		y = 4
+
+	}
+	focus = {
+		id = newfocus_88
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_87
+		}
+		x = 22
+		y = 5
+
+	}
+	focus = {
+		id = newfocus_89
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_87
+		}
+		x = 24
+		y = 5
+
+	}
+	focus = {
+		id = newfocus_90
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_87
+		}
+		x = 26
+		y = 5
+
+	}
+	focus = {
+		id = newfocus_91
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_88
+		}
+		prerequisite = {
+			focus = newfocus_89
+		}
+		prerequisite = {
+			focus = newfocus_90
+		}
+		x = 24
+		y = 6
+
+	}
+	focus = {
+		id = newfocus_92
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_91
+		}
+		x = 23
+		y = 7
+
+	}
+	focus = {
+		id = newfocus_94
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_92
+		}
+		x = 24
+		y = 8
+
+	}
+	focus = {
+		id = newfocus_93
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_91
+		}
+		x = 26
+		y = 7
+
+	}
+	focus = {
+		id = newfocus_95
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_93
+		}
+		x = 26
+		y = 8
+
+	}
+	focus = {
+		id = newfocus_36
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_15
+		}
+		mutually_exclusive = {
+			focus = newfocus_4
+		}
+		x = 28
+		y = 1
+
+	}
+	focus = {
+		id = newfocus_37
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_36
+		}
+		x = 28
+		y = 2
+
+	}
+	focus = {
+		id = newfocus_106
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_37
+		}
+		x = 27
+		y = 3
+
+	}
+	focus = {
+		id = newfocus_107
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_37
+		}
+		x = 29
+		y = 3
+
+	}
+	focus = {
+		id = newfocus_108
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_106
+		}
+		prerequisite = {
+			focus = newfocus_107
+		}
+		x = 28
+		y = 4
+
+	}
+	focus = {
+		id = newfocus_109
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_108
+		}
+		x = 28
+		y = 5
+
+	}
+	focus = {
+		id = newfocus_110
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_109
+		}
+		x = 28
+		y = 6
+
+	}
+	focus = {
+		id = newfocus_111
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_110
+		}
+		x = 28
+		y = 7
+
+	}
+	focus = {
+		id = newfocus_112
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_111
+		}
+		x = 28
+		y = 8
+
+	}
+	focus = {
+		id = newfocus_6
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_3
+		}
+		prerequisite = {
+			focus = newfocus_5
+		}
+		x = 4
+		y = 6
+
+	}
+	focus = {
+		id = newfocus_7
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_6
+		}
+		x = 4
+		y = 7
+
+	}
+	focus = {
+		id = newfocus_8
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_7
+		}
+		x = 5
+		y = 8
+
+	}
+	focus = {
+		id = newfocus_9
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_7
+		}
+		x = 2
+		y = 8
+
+	}
+	focus = {
+		id = newfocus_10
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_8
+		}
+		mutually_exclusive = {
+			focus = newfocus_11
+		}
+		x = 4
+		y = 9
+
+	}
+	focus = {
+		id = newfocus_11
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_8
+		}
+		mutually_exclusive = {
+			focus = newfocus_10
+		}
+		x = 6
+		y = 9
+
+	}
+	focus = {
+		id = newfocus_14
+		icon = GFX_focus_jap_cast_the_die
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_12
+		}
+		prerequisite = {
+			focus = newfocus_13
+		}
+		x = 9
+		y = 6
+
+	}
+	focus = {
+		id = newfocus_16
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_14
+		}
+		x = 9
+		y = 7
+
+	}
+	focus = {
+		id = newfocus_17
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_16
+		}
+		x = 8
+		y = 8
+
+	}
+	focus = {
+		id = newfocus_18
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_16
+		}
+		x = 10
+		y = 8
+
+	}
+	focus = {
+		id = newfocus_19
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_18
+		}
+		x = 10
+		y = 9
+
+	}
+	focus = {
+		id = newfocus_20
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_19
+		}
+		x = 10
+		y = 10
+
+	}
+	focus = {
+		id = newfocus_21
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_17
+		}
+		x = 8
+		y = 10
+
+	}
+	focus = {
+		id = newfocus_22
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_21
+		}
+		prerequisite = {
+			focus = newfocus_20
+		}
+		x = 9
+		y = 11
+
+	}
+	focus = {
+		id = newfocus_23
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_22
+		}
+		x = 7
+		y = 12
+
+	}
+	focus = {
+		id = newfocus_24
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_22
+		}
+		x = 11
+		y = 12
+
+	}
+	focus = {
+		id = newfocus_25
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_31
+		}
+		x = 6
+		y = 15
+
+	}
+	focus = {
+		id = newfocus_26
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_40
+			focus = newfocus_23
+		}
+		x = 5
+		y = 13
+
+	}
+	focus = {
+		id = newfocus_27
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_24
+		}
+		mutually_exclusive = {
+			focus = newfocus_29
+		}
+		x = 10
+		y = 13
+
+	}
+	focus = {
+		id = newfocus_28
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_27
+		}
+		x = 10
+		y = 14
+
+	}
+	focus = {
+		id = newfocus_29
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_24
+		}
+		mutually_exclusive = {
+			focus = newfocus_27
+		}
+		x = 12
+		y = 13
+
+	}
+	focus = {
+		id = newfocus_30
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_29
+		}
+		x = 12
+		y = 14
+
+	}
+	focus = {
+		id = newfocus_31
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_32
+		}
+		x = 6
+		y = 14
+
+	}
+	focus = {
+		id = newfocus_32
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_23
+		}
+		x = 7
+		y = 13
+
+	}
+	focus = {
+		id = newfocus_33
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_26
+		}
+		x = 4
+		y = 14
+
+	}
+	focus = {
+		id = newfocus_34
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_9
+		}
+		x = 2
+		y = 9
+
+	}
+	focus = {
+		id = newfocus_35
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_34
+		}
+		x = 2
+		y = 10
+
+	}
+	focus = {
+		id = newfocus_38
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_11
+		}
+		x = 6
+		y = 10
+
+	}
+	focus = {
+		id = newfocus_39
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_10
+		}
+		x = 4
+		y = 10
+
+	}
+	focus = {
+		id = newfocus_40
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_39
+			focus = newfocus_38
+		}
+		x = 5
+		y = 11
+
+	}
+	focus = {
+		id = newfocus_41
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_40
+		}
+		x = 3
+		y = 12
+
+	}
+	focus = {
+		id = newfocus_42
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_32
+		}
+		x = 8
+		y = 14
+
+	}
+	focus = {
+		id = newfocus_55
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_53
+		}
+		x = 13
+		y = 11
+
+	}
+	focus = {
+		id = newfocus_56
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_55
+		}
+		x = 13
+		y = 12
+
+	}
+	focus = {
+		id = newfocus_58
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_56
+		}
+		prerequisite = {
+			focus = newfocus_57
+		}
+		x = 14
+		y = 13
+
+	}
+	focus = {
+		id = newfocus_59
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_58
+		}
+		x = 14
+		y = 14
+
+	}
+	focus = {
+		id = newfocus_60
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_59
+		}
+		x = 14
+		y = 15
+
+	}
+	focus = {
+		id = newfocus_71
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_70
+		}
+		prerequisite = {
+			focus = newfocus_67
+		}
+		x = 18
+		y = 8
+
+	}
+	focus = {
+		id = newfocus_72
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_40
+		}
+		x = 1
+		y = 12
+
+	}
+	focus = {
+		id = newfocus_73
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_41
+		}
+		x = 3
+		y = 13
+
+	}
+	focus = {
+		id = newfocus_74
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_72
+		}
+		x = 1
+		y = 13
+
+	}
+	focus = {
+		id = newfocus_75
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_74
+		}
+		prerequisite = {
+			focus = newfocus_73
+		}
+		x = 2
+		y = 14
+
+	}
+	focus = {
+		id = newfocus_76
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_71
+		}
+		x = 18
+		y = 9
+
+	}
+	focus = {
+		id = newfocus_77
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_76
+		}
+		x = 17
+		y = 10
+
+	}
+	focus = {
+		id = newfocus_78
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_76
+		}
+		x = 20
+		y = 10
+
+	}
+	focus = {
+		id = newfocus_79
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_78
+		}
+		prerequisite = {
+			focus = newfocus_77
+		}
+		mutually_exclusive = {
+			focus = newfocus_80
+		}
+		x = 19
+		y = 11
+
+	}
+	focus = {
+		id = newfocus_80
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_78
+		}
+		mutually_exclusive = {
+			focus = newfocus_79
+		}
+		x = 21
+		y = 11
+
+	}
+	focus = {
+		id = newfocus_81
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_77
+		}
+		x = 17
+		y = 11
+
+	}
+	focus = {
+		id = newfocus_82
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_81
+		}
+		x = 17
+		y = 12
+
+	}
+	focus = {
+		id = newfocus_83
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_79
+		}
+		prerequisite = {
+			focus = newfocus_80
+		}
+		x = 20
+		y = 12
+
+	}
+	focus = {
+		id = newfocus_84
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_83
+		}
+		prerequisite = {
+			focus = newfocus_82
+		}
+		x = 18
+		y = 13
+
+	}
+	focus = {
+		id = newfocus_85
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_84
+		}
+		x = 18
+		y = 14
+
+	}
+	focus = {
+		id = newfocus_86
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_85
+		}
+		x = 18
+		y = 15
+
+	}
+	focus = {
+		id = newfocus_96
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_92
+		}
+		x = 22
+		y = 8
+
+	}
+	focus = {
+		id = newfocus_97
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_96
+		}
+		prerequisite = {
+			focus = newfocus_94
+		}
+		x = 23
+		y = 9
+
+	}
+	focus = {
+		id = newfocus_98
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_97
+		}
+		prerequisite = {
+			focus = newfocus_95
+		}
+		x = 24
+		y = 10
+
+	}
+	focus = {
+		id = newfocus_99
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_98
+		}
+		mutually_exclusive = {
+			focus = newfocus_100
+		}
+		x = 23
+		y = 11
+
+	}
+	focus = {
+		id = newfocus_100
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_98
+		}
+		mutually_exclusive = {
+			focus = newfocus_99
+		}
+		x = 25
+		y = 11
+
+	}
+	focus = {
+		id = newfocus_101
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_99
+		}
+		x = 23
+		y = 12
+
+	}
+	focus = {
+		id = newfocus_102
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_100
+		}
+		x = 25
+		y = 12
+
+	}
+	focus = {
+		id = newfocus_103
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_101
+		}
+		prerequisite = {
+			focus = newfocus_102
+		}
+		x = 24
+		y = 13
+
+	}
+	focus = {
+		id = newfocus_104
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_103
+		}
+		x = 24
+		y = 14
+
+	}
+	focus = {
+		id = newfocus_105
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = newfocus_104
+		}
+		x = 24
+		y = 15
+	}
+	focus = {
+		id = newfocus_12
+		icon = GFX_goal_two_peo2
+		cost = 10.00
+		prerequisite = { focus = newfocus_0 }
+		available = { 
+			has_country_leader =  {
+				name = "독립위원회"
+				ruling_only = yes
+			}
+		}
+		x = 8
+		y = 5
+		completion_reward = {
+  			create_country_leader = {
+				name = "이승만"
+				desc = ""
+				picture = ""
+				expire = "1999.1.1"
+				ideology = socialism
+				traits = {#}
+			}
+		}
+	}
