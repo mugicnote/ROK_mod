@@ -112,8 +112,8 @@
   a_parliamentary_siege:0 "여당의 국회 공성전"
   ###시작 결정###
   military_arrest:0 "군부 체포"
-  A_military_revolution:0 "군부의 혁명?"
-  military_success:0 "군부의 성공"
+  A_military_revolution:0 "군부의 유지?"
+  military_success:0 "군부를 유지하다"
   ###파시즘 중점###
   division_of_party:0 "집권당 분열"
   joeson_fascism_party:0 "조선민족청년단"

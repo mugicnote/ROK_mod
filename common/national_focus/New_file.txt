@@ -426,6 +426,7 @@ focus_tree = {
 		cost = 10.00
 		prerequisite = {
 			focus = Lee_Seung-man_to_the_State
+			focus = Adding_emergency_martial_law_authority
 		}
 		x = 16
 		y = 8
@@ -679,7 +680,7 @@ focus_tree = {
 	}
 	focus = {
 		id = establishing_a_supporting_ruling_party
-		icon = GFX_goal_unknown
+		icon = GFX_focus_usa_union_representation_act
 		cost = 10.00
 		prerequisite = {
 			focus = Lee_Seung-man_Elected
@@ -834,7 +835,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Hakdo_Patriotic_Corps
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_little_entente
 		cost = 10.00
 		prerequisite = {
 			focus = Lee_Seung-man_Elected
@@ -845,7 +846,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Korean_Anti-Communist_Youth_Corps
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_war_with_comintern
 		cost = 10.00
 		prerequisite = {
 			focus = Hakdo_Patriotic_Corps
@@ -1170,7 +1171,7 @@ focus_tree = {
 	}
 	focus = {
 		id = joeson_fascism_party
-		icon = GFX_goal_unknown
+		icon = GFX_focus_ger_revive_kaiserreich
 		cost = 10.00
 		prerequisite = {
 			focus = division_of_party
@@ -1184,7 +1185,7 @@ focus_tree = {
      }
 	 	focus = {
 		id = white_doctor
-		icon = GFX_goal_unknown
+		icon = GFX_focus_eng_organise_the_blackshirts
 		cost = 10.00
 		prerequisite = {
 			focus = division_of_party
@@ -1224,9 +1225,9 @@ focus_tree = {
 		y = 4
 
      }
-		 	focus = {
+		focus = {
 		id = opposition_conciliation
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_diplomatic_treaty
 		cost = 10.00
 		prerequisite = {
 			focus = general_lee
@@ -1240,7 +1241,7 @@ focus_tree = {
      }
 	 	focus = {
 		id = general_recruitment
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_manpower
 		cost = 10.00
 		prerequisite = {
 			focus = general_lee
@@ -1254,7 +1255,7 @@ focus_tree = {
      }
 		focus = {
 		id = sharp_law
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_monarchy_1
 		cost = 10.00
 		prerequisite = {
 			focus = general_lee
@@ -1268,7 +1269,7 @@ focus_tree = {
      }
 	    focus = {
 		id = keep_going
-		icon = GFX_goal_unknown
+		icon = GFX_focus_eng_expose_the_belly_of_the_bear
 		cost = 10.00
 		prerequisite = {
 			focus = opposition_conciliation
@@ -1282,7 +1283,7 @@ focus_tree = {
      }
 	 	focus = {
 		id = kill_opposition
-		icon = GFX_goal_unknown
+		icon = GFX_focus_CZE_german_puppet
 		cost = 10.00
 		prerequisite = {
 			focus = opposition_conciliation
@@ -1296,7 +1297,7 @@ focus_tree = {
      }
 	 	focus = {
 		id = general_central_system
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_little_entente
 		cost = 10.00
 		prerequisite = {
 			focus = general_recruitment 
@@ -1311,7 +1312,7 @@ focus_tree = {
      }
 	 	focus = {
 		id = general_center
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_military_mission
 		cost = 10.00
 		prerequisite = {
 			focus = keep_going
@@ -1476,7 +1477,7 @@ focus_tree = {
      }
 		focus = {
 		id = support_nationalist
-		icon = GFX_goal_unknown
+		icon = GFX_focus_spa_unify_the_nationalist_front
 		cost = 10.00
 		prerequisite = {
 			focus = joeson_fascism_party
@@ -1491,7 +1492,7 @@ focus_tree = {
      }
 	    focus = {
 		id = alkassar_defense
-		icon = GFX_goal_unknown
+		icon = GFX_focus_spa_save_the_alcazar
 		cost = 10.00
 		prerequisite = {
 			focus = support_nationalist
@@ -1505,7 +1506,7 @@ focus_tree = {
      }
 	 	focus = {
 		id = dispatch_special_force
-		icon = GFX_goal_unknown
+		icon = GFX_focus_spr_no_pasaran
 		cost = 10.00
 		prerequisite = {
 			focus = alkassar_defense
@@ -1531,5 +1532,352 @@ focus_tree = {
 		y = 7
 
      }
+		focus = {
+	 	id = external_expansion
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = general_center
+			focus = yeom_dong_jin_center
+		}
+		x = 50
+		y = 8
 
+	}
+		focus = {
+		id = annex_man
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = external_expansion 
+		}
+		mutually_exclusive = {
+			focus = puppet_man
+		}
+		x = 49
+		y = 9
+
+     }
+	 	focus = {
+		id = puppet_man
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = external_expansion 
+		}
+		mutually_exclusive = {
+			focus = annex_man
+		}
+		x = 51
+		y = 9
+
+     }
+	 	focus = {
+		id = intervention_asia
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = annex_man
+			focus = puppet_man
+		}
+		mutually_exclusive = {
+			focus = 
+		}
+		x = 46
+		y = 10
+
+     }
+	 	focus = {
+		id = intervention_america
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = annex_man
+			focus = puppet_man
+		}
+		mutually_exclusive = {
+			focus = 
+		}
+		x = 50
+		y = 10
+
+     }
+	 	focus = {
+		id = intervention_europe
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = annex_man
+			focus = puppet_man
+		}
+		mutually_exclusive = {
+			focus = 
+		}
+		x = 54
+		y = 10
+
+     }	 
+	 	focus = {
+		id = alliance_siam
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = intervention_asia
+		}
+		mutually_exclusive = {
+			focus = 
+		}
+		x = 45
+		y = 11
+
+     }	 
+	 	 focus = {
+		id = trick_mongol
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = intervention_asia
+		}
+		mutually_exclusive = {
+			focus = 
+		}
+		x = 47
+		y = 11
+
+     }	 
+	 	focus = {
+		id = alliance_jap
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = trick_mongol
+			focus = alliance_siam
+		}
+		mutually_exclusive = {
+			focus = war_with_jap
+		}
+		x = 45
+		y = 12
+
+     }	 
+	 	focus = {
+		id = war_with_jap
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = trick_mongol
+			focus = alliance_siam
+		}
+		mutually_exclusive = {
+			focus = alliance_jap
+		}
+		x = 47
+		y = 12
+
+     }	 
+	 	focus = {
+		id = support_chinese_fascism
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = alliance_jap
+			focus = war_with_jap
+		}
+		mutually_exclusive = {
+			focus = war_chi
+		}
+		x = 45
+		y = 13
+
+     }
+	 	focus = {
+		id = war_chi
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = alliance_jap
+			focus = war_with_jap
+		}
+		mutually_exclusive = {
+			focus = support_chinese_fascism
+		}
+		x = 47
+		y = 13
+
+     }	
+	 	focus = {
+		id = use_mex
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = intervention_america
+		}
+		mutually_exclusive = {
+			focus = 
+		}
+		x = 50
+		y = 11
+
+     }
+	 	focus = {
+		id = intervention_south_america
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = use_mex
+		}
+		mutually_exclusive = {
+			focus = 
+		}
+		x = 49
+		y = 12
+
+     }
+	 	focus = {
+		id = intervention_north_america
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = use_mex
+		}
+		mutually_exclusive = {
+			focus = 
+		}
+		x = 51
+		y = 12
+
+     }
+	 	focus = {
+		id = form_south_union
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = intervention_south_america
+		}
+		mutually_exclusive = {
+			focus = 
+		}
+		x = 49
+		y = 13
+
+     }
+	 	focus = {
+		id = direct_rule_from_mainland
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = intervention_north_america
+		}
+		mutually_exclusive = {
+			focus = 
+		}
+		x = 51
+		y = 13
+
+     }
+	 	focus = {
+		id = alliance_ger
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = intervention_europe
+		}
+		mutually_exclusive = {
+			focus = war_ger
+		}
+		x = 53
+		y = 11
+
+     }	 
+	 	focus = {
+		id = war_ger
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = intervention_europe
+		}
+		mutually_exclusive = {
+			focus = alliance_ger
+		}
+		x = 55
+		y = 11
+
+     }	 
+	 	focus = {
+		id = support_fra
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = alliance_ger
+			focus = war_ger
+		}
+		mutually_exclusive = {
+			focus = 
+		}
+		x = 53
+		y = 12
+    }
+		focus = {
+		id = support_rus
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = alliance_ger
+			focus = war_ger
+		}
+		mutually_exclusive = {
+			focus = 
+		}
+		x = 55
+		y = 12
+
+     }	 
+	 	focus = {
+		id = support_gbr
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = support_fra
+			focus = support_rus
+		}
+		mutually_exclusive = {
+			focus = 
+		}
+		x = 53
+		y = 13
+    }
+	    focus = {
+		id = support_ita
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = support_fra
+			focus = support_rus
+		}
+		mutually_exclusive = {
+			focus = 
+		}
+		x = 55
+		y = 13
+
+     }
+	 	focus = {
+		id = we_wont_lose
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = support_ita
+			focus = support_gbr
+			focus = direct_rule_from_mainland
+			focus = form_south_union
+			focus = war_chi
+			focus = support_chinese_fascism
+		}
+		mutually_exclusive = {
+			focus = 
+		}
+		x = 50
+		y = 14
+
+     }
 }
