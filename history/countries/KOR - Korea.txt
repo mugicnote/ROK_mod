@@ -9,6 +9,12 @@ capital = 797
 	set_garrison_strength = 0
 }
 
+#중추원 의석 설정
+set_variable = { var = senate_support value = 0 }
+set_variable = { var = senate_total value = 0 }
+set_variable = { var = commons_support value = 0 }
+set_variable = { var = commons_total value = 0 }
+
 #시작시_연구가능_칸
 set_research_slots = 4
 
