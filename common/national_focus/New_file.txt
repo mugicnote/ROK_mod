@@ -1,4 +1,4 @@
-focus_tree = {
+﻿focus_tree = {
 	id = New_file
 	country = {
 		factor = 0
@@ -1020,7 +1020,7 @@ focus_tree = {
 	}
 	focus = {
 		id = leader_of_Kim_Il-sung
-		icon = GFX_
+		icon = GFX_focus_kim_ilsung
 		cost = 10.00
 		prerequisite = {
 			focus = Workers'_Party_of_Korea
@@ -1428,7 +1428,7 @@ focus_tree = {
      }
 	 	focus = {
 		id = secure_stability
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_self_management
 		cost = 10.00
 		prerequisite = {
 			focus = joeson_fascism_party
@@ -1439,7 +1439,7 @@ focus_tree = {
 	}
 		focus = {
 		id = nationalistic_education
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_military_academy
 		cost = 10.00
 		prerequisite = {
 			focus = secure_stability
@@ -1880,4 +1880,128 @@ focus_tree = {
 		y = 14
 
      }
+     focus = {
+		id = Prime_Minister_Park_Heon-young
+		icon = GFX_focus_pak_honyong
+		cost = 10.00
+		prerequisite = {
+			focus = Communist_Party_of_Korea
+		}
+		x = 37
+		y = 4
+	}
+	focus = {
+		id = absorption_Workers'_Party_of_Korea
+		icon = GFX_
+		cost = 10.00
+		prerequisite = {
+			focus = Prime_Minister_Park_Heon-young
+		}
+		x = 35
+		y = 5
+	}
+
+	focus = {
+		id = conciliation_Workers_Party
+		icon = GFX_
+		cost = 10.00
+		prerequisite = {
+			focus = absorption_Workers'_Party_of_Korea
+		}
+		mutually_exclusive = {
+			focus = Purge_of_Labour_Members
+		}
+		x = 34
+		y = 6
+	}
+	focus = {
+		id = Purge_of_Labour_Members
+		icon = GFX_
+		cost = 10.00
+		prerequisite = {
+			focus = absorption_Workers'_Party_of_Korea
+		}
+		mutually_exclusive = {
+			focus = conciliation_Workers_Party
+		}
+		x = 36
+		y = 6
+	}
+	focus = {
+		id = property_nationalization
+		icon = GFX_
+		cost = 10.00
+		prerequisite = {
+			focus = Prime_Minister_Park_Heon-young
+		}
+		x = 37
+		y = 5
+	}
+	focus = {
+		id = industrialization
+		icon = GFX_
+		cost = 10.00
+		prerequisite = {
+			focus = Prime_Minister_Park_Heon-young
+		}
+		x = 39
+		y = 5
+	}
+	focus = {
+		id = land_public_system
+		icon = GFX_
+		cost = 10.00
+		prerequisite = {
+			focus = industrialization
+		}
+		prerequisite = {
+			focus = property_nationalization
+		}
+		x = 38
+		y = 6
+	}
+	focus = {
+		id = Communist_Party_is_one
+		icon = GFX_
+		cost = 10.00
+		prerequisite = {
+			focus = Purge_of_Labour_Members
+			focus = conciliation_Workers_Party
+		}
+		x = 35
+		y = 7
+	}
+	focus = {
+		id = national_reconstruction
+		icon = GFX_
+		cost = 10.00
+		prerequisite = {
+			focus = land_public_system
+		}
+		x = 37
+		y = 7
+	}
+	focus = {
+		id = All_men_will_be_equal
+		icon = GFX_
+		cost = 10.00
+		prerequisite = {
+			focus = national_reconstruction
+			focus = Communist_Party_is_one
+		}
+		x = 36
+		y = 8
+	}
+	focus = {
+		id = military_intervention
+		icon = GFX_
+		cost = 10.00
+		prerequisite = {
+			focus = leadership-centered_system
+			focus = win_a_revolution
+			focus = All_men_will_be_equal
+		}
+		x = 31
+		y = 9
+	}
 }
