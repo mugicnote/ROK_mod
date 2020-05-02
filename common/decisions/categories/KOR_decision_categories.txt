@@ -1,4 +1,4 @@
-﻿#의회
+#의회
 KOR_congress = {
 	icon = usa_congress
 	allowed = {
