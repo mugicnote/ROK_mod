@@ -1,4 +1,4 @@
-KOR_congress = {
+﻿KOR_congress = {
 
 	#소규모 지지도 확보
 	KOR_small_securement_of_support = {
@@ -10,13 +10,13 @@ KOR_congress = {
 		}
 
 		modifier = {
-			
+
 		}
 
 		days_remove = 30
-		
+
 		remove_effect = {
-			
+
 		}
 	}
 
@@ -30,13 +30,13 @@ KOR_congress = {
 		}
 
 		modifier = {
-			
+
 		}
 
 		days_remove = 30
-		
+
 		remove_effect = {
-			
+
 		}
 	}
 }
